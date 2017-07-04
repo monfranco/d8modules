@@ -1,0 +1,6 @@
+name: CERN Blocks
+type: module
+description: Defines Two Blocks, one cofigured by API and other configured by YAML.
+package: CERN Training
+version: '1.x'
+core: '8.x'

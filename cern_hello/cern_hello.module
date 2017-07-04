@@ -1,0 +1,6 @@
+<?php 
+/** 
+* @file 
+* Module file for CERN TRAINING
+* This module creates a welcome page. 
+*/ 	

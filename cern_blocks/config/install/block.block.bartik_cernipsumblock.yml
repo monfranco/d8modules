@@ -1,0 +1,20 @@
+langcode: en 
+status: true
+dependencies:
+  module:
+    - cern_blocks 
+  theme: 
+    - bartik
+id: cernsipsumblock
+theme: bartik 
+region: sidebar_second
+weight: 0
+provider: null
+plugin: cern_blocks_simple_block 
+settings:
+  id: cern_blocks_simple_block 
+  label: ‘Custom Title'
+  provider: cern_blocks
+  label_display: visible
+  block_message: 'lorem ipsum'
+visibility: { } 

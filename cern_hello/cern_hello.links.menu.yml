@@ -1,0 +1,6 @@
+cern_hello.link: 
+  title: Hello Page 
+  description: 'Hello Page menu link' 
+  route_name: cern_hello.hello 
+  menu_name: main 
+  weight: 1 

@@ -1,0 +1,8 @@
+# This defines our example page's path to the routing system.
+plugin_type_example.description:
+  path: '/cern/lorenipsum'
+  defaults:
+    _controller: '\Drupal\cern_plugins\Controller\PluginCernIpsumController::cernipsum'
+    _title: 'CERN Plugin Example'
+  requirements:
+    _permission: 'access content'

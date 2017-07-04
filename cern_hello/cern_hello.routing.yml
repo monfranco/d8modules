@@ -1,0 +1,7 @@
+cern_hello.hello:
+  path: '/cern/hello'
+  defaults:
+    _controller: '\Drupal\cern_hello\Controller\CERNHelloController::hello'
+    _title: 'Hello World Page'
+  requirements:
+    _permission: 'access content'

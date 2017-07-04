@@ -1,0 +1,6 @@
+name: CERN Hello
+type: module
+description: Defines a Hello World page.
+package: CERN Training
+version: '1.x'
+core: '8.x'

@@ -1,0 +1,4 @@
+services:
+  plugin.manager.cernipsum:
+    class: Drupal\cern_plugins\CERNipsumPluginManager
+    parent: default_plugin_manager
